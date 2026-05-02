@@ -1,10 +1,12 @@
+import os
+
 import pyrogram
 
 
 bot = pyrogram.Client(
-	api_id=API_ID,
-	api_hash=API_HASH,
-	bot_token=BOT_TOKEN,
+	api_id=os.environ['API_ID'],
+	api_hash=os.environ['API_HASH'],
+	bot_token=os.environ['BOT_TOKEN'],
 
 	name = ""
 )
