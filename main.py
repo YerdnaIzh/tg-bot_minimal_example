@@ -8,7 +8,7 @@ bot = pyrogram.Client(
 	api_hash=os.environ['API_HASH'],
 	bot_token=os.environ['BOT_TOKEN'],
 
-	name = "my_cool_bot"
+	name = "my_uncool_bot"
 )
 
 @bot.on_message()
